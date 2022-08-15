@@ -1,8 +1,7 @@
 
 body{
     background-color: whitesmoke;
-    font-family: 'Asap Condensed', sans-serif;
-    
+    font-family: 'Alfa Slab One', cursive;
 }
 
 .logo{
@@ -14,31 +13,31 @@ body{
   box-shadow: 0px 0px 10px;
 }
 
+
+.home{
+  font-family: 'DynaPuff', cursive;
+}
 .navbar {
     overflow: hidden;
-    background: #84A59D;
-    box-shadow: 0px 0px 10px;
-    font-size: 25px;
-    letter-spacing: 1px;
+    background-color: white;
+     font-size: 25px ; 
+    color: #fe6d73;
+    font-family: 'Kaushan Script', cursive;
+    /* font-family: 'DynaPuff', cursive; */
+  
+} 
 
-}
+
 .navbar a {
     float:left;
     display: block;
-    color: #F7EDE2;
+    color: #fe6d73;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
   
 }
 
-.home {
-  font-family: 'Inspiration', cursive;
-  ;
-  font-size: 60px;
-  letter-spacing: 2px;
-
-   } 
 
 .navbar a.right {
     float: right
@@ -50,17 +49,27 @@ body{
 }
 
 #sButton{
-  background-color:#F7EDE2 ;
-  border: px black;
+  background-color:#fe6d73;
+  border: px #fe6d73;
   border-radius:  .4rem;
-  font-size: largE;
-  font-family: 'Asap Condensed', sans-serif;
+  font-size: 15px;
+  font-family: 'DynaPuff', cursive;
+  color: #F7FFF7;
   letter-spacing: 1px;
+
+}
+
+.recipe{
+  text-align: right;
+
 }
 
 .signbtn input{
-  font-family: 'Asap Condensed', sans-serif;
-  font-size: large;
+ 
+  font-size: 15px;
+  font-family: 'Kaushan Script', cursive;
+  border-radius: .4rem;
+
 }
 
 .search-bar {
@@ -71,20 +80,23 @@ body{
 }
 
 .search-bar input {
-    font-size: 1em;
+    font-size: 1.4em;
     padding: .6em;
     border: none;
     outline: none;
-    border-bottom: 2px solid #F28482;
-    font-family: 'Asap Condensed', sans-serif;
+    border-bottom: 2px solid #fe6d73;
+    font-family: 'Kaushan Script', cursive;
 }
 
 .search-bar button {
-    font-size: 1em;
-    background-color: #F28482;
-    border: none;
+    font-size: 1.5em;
+    background-color: #fe6d73;
     font-weight: 600;
     border-radius: .4em;
+    font-family: 'Kaushan Script', cursive;
+    word-spacing: 1px;
+    color: #F7FFF7;
+
 }
 
 
@@ -96,7 +108,7 @@ body{
   margin-right: auto;
 border-radius: 2.0rem;
 background-size: cover;
-filter: blur(1.3px);
+
 box-shadow: 0px 0px 10px;
 
 }
@@ -110,8 +122,9 @@ box-shadow: 0px 0px 10px;
 footer {
     text-align: center;
     padding: 3px;
-    background-color: #84A59D;
-    color: white;
+    background-color: #fe6d73;
+    color: black;
+    letter-spacing: 1px;
 }
 
 .sign {
@@ -185,7 +198,7 @@ img {
 }
 
 .details {
-    background-color: #8d4746;
+    background-color: #fe6d73;
     position: relative;
     margin: -4.3em 0 0 0;
     text-align: center;
@@ -204,7 +217,7 @@ img {
     position: relative;
     left: 75%;
     padding: 0.9em 0.6em;
-    background-color: #F28482;
+    background-color:#fe6d73;
     border: none;
     top: 1.5em;
     border-radius: 0.3em;
@@ -234,7 +247,7 @@ img {
     position: relative;
     width: 1.8em;
     height: 1.8em;
-    background-color: #F28482;
+    background-color: #fe6d73;
     border: none;
     top: 1.2em;
     left: 90%;
@@ -251,6 +264,9 @@ img {
     text-transform: capitalize;
   }
 
+  .dessert{
+    text-align: center;
+  }
   /* arranges side by side affect */
 
   .suggest {
@@ -259,7 +275,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 5px 5px  black;
-    letter-spacing: .5px;
+    letter-spacing: .7px;
   }
 
 
@@ -269,7 +285,7 @@ img {
     left: 52%;
     transform: translate(-60%, -50%);
     text-shadow: 3px 3px black;
-    letter-spacing: .5px;
+    letter-spacing: .7px;
 
   }
 
@@ -288,18 +304,6 @@ img {
 
   }
 
-  /* .banner-container .banner {
-    background:linear-gradient(-55deg, #ff7675 29%, #d63031 29.1%, #d63031 68%, #ff7675 68.1%);
-    border-radius: 5px;
-    margin:5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    box-shadow: 0 5px 10px #0005;
-    overflow: hidden;
-
-  } */
 
   .banner-container .banner .ad{
     flex:1 1 10px;
@@ -476,7 +480,7 @@ form {
 }
 .client-words p{
    font-size: 1rem;
-   color: orange;
+   color: #FF6B6B;
 }
 
 .testimonials-box:hover{
@@ -485,7 +489,7 @@ form {
 }
 
 #get{
- background-color: #B0C4B1;  
+ background-color: #FF6B6B;  
  border: none;
  color: white;
  padding: 15px 32px;
